@@ -2,7 +2,7 @@
 
 namespace LearningConductors.ViewModels
 {
-    public class ShellViewModel : Conductor<object>.Collection.AllActive
+    public class ShellViewModel : Conductor<Screen>.Collection.AllActive
     {
         public RedViewModel Red { get; set; }
         public GreenViewModel Green{ get; set; }
